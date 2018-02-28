@@ -1,7 +1,7 @@
 {
-  "name": "angular5-social-login",
+  "name": "angular5-social-auth",
   "version": "1.0.9",
-  "description": "Agular 5 : Social Login (Facebook and Google)",
+  "description": "Agular 5 : Social Login (Facebook, Google, Linkedin)",
   "scripts": {
     "build": "gulp build",
     "build:watch": "gulp",
@@ -13,11 +13,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sabyasachibiswal/angular5-social-login"
+    "url": "https://github.com/vov4ik08/angular5-social-login"
   },
   "author": {
-    "name": "Sabyasachi Biswal",
-    "email": "sabyasachi.biswal4@gmail.com"
+    "name": "Vladimir Boyko",
+    "email": "vov4ik08@gmail.com"
   },
   "keywords": [
     "angular",
@@ -38,7 +38,8 @@
     "angular-google-authentication",
     "facebook-authentication",
     "angular-facebook-authentication",
-    "angular module"
+    "angular module",
+    "linkedin-authentication"
   ],
   "license": "MIT",
   "bugs": {
