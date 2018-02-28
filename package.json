@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vov4ik08/angular5-social-login"
+    "url": "https://github.com/vov4ik08/angular5-social-auth"
   },
   "author": {
     "name": "Vladimir Boyko",
@@ -31,7 +31,7 @@
     "social authentication",
     "angular social authentication",
     "angular-social-login",
-    "angular5-social-login",
+    "angular5-social-auth",
     "social-authentication",
     "social-login",
     "google-authentication",

@@ -27,7 +27,7 @@ import {
     GoogleLoginProvider,
     FacebookLoginProvider,
     LinkedinLoginProvider
-} from "angular5-social-login";
+} from "angular5-social-auth";
 
 
 // Configs 
@@ -81,7 +81,7 @@ import {
     FacebookLoginProvider,
     GoogleLoginProvider,
     LinkedinLoginProvider
-} from 'angular5-social-login';
+} from 'angular5-social-auth';
 
 @Component({
   selector: 'app-signin',
