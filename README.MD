@@ -27,24 +27,24 @@ import {
     GoogleLoginProvider,
     FacebookLoginProvider,
     LinkedinLoginProvider
-} from "angular5-social-auth";
+} from 'angular5-social-auth';
 
 
 // Configs 
 export function getAuthServiceConfigs() {
-  let config = new AuthServiceConfig(
+  const config = new AuthServiceConfig(
       [
         {
           id: FacebookLoginProvider.PROVIDER_ID,
-	      provider: new FacebookLoginProvider("Your-Facebook-app-id")
+	      provider: new FacebookLoginProvider('Your-Facebook-app-id)
         },
         {
           id: GoogleLoginProvider.PROVIDER_ID,
-	      provider: new GoogleLoginProvid("Your-Google-Client-Id")
+	      provider: new GoogleLoginProvider('Your-Google-Client-Id')
         },
          {
           id: LinkedinLoginProvider.PROVIDER_ID,
-	      provider: new GoogleLoginProvid("Your-Linkedin-Client-Id")
+	      provider: new GoogleLoginProvider('Your-Linkedin-Client-Id')
         },
       ];
   );
@@ -96,17 +96,17 @@ export class SigninComponent implements OnInit {
   
   public socialSignIn(socialPlatform : string) {
     let socialPlatformProvider;
-    if(socialPlatform == "facebook"){
+    if(socialPlatform === 'facebook'){
       socialPlatformProvider = FacebookLoginProvider.PROVIDER_ID;
-    }else if(socialPlatform == "google"){
+    }else if(socialPlatform === 'google'){
       socialPlatformProvider = GoogleLoginProvider.PROVIDER_ID;
-    }else if(socialPlatform == "linkedin"){
+    }else if(socialPlatform === 'linkedin'){
       socialPlatformProvider = LinkedinLoginProvider.PROVIDER_ID;
     }
     
     this.socialAuthService.signIn(socialPlatformProvider).then(
       (userData) => {
-        console.log(socialPlatform+" sign in data : " , userData);
+        console.log(socialPlatform + ' sign in data : ' , userData);
         // Now sign-in with userData
         ...
             
